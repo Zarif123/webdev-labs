@@ -1,0 +1,27 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+Add some style blocks below this line to style the card.
+*/
+
+.page-section {
+    box-sizing: border-box;
+    border: dotted 2px rgb(13, 13, 155); 
+    flex-direction: column;
+    display: flex;
+    width: 25%;
+}
+
+.card {
+    padding-left: 10px;
+}
+
+#but {
+    align-self: flex-start;
+}
