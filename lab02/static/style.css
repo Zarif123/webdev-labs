@@ -25,8 +25,23 @@ nav ul {
 
 main {
     margin: 3vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
 }
 
+#res_name {
+    font-weight: bold;
+}
+
+.tb_info {
+    font-weight: bold;
+}
+
+.res_info {
+    padding: 4px;
+}
 
 @media only screen and (max-width: 1000px) {
     /* Media queries go here */
