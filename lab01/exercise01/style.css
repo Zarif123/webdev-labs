@@ -16,6 +16,7 @@ Add some style blocks below this line to style the card.
     flex-direction: column;
     display: flex;
     width: 25%;
+    margin: 30px;
 }
 
 .card {

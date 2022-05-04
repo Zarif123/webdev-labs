@@ -1,0 +1,3 @@
+1. The value of SQLAlchemy is that it allows developers working in a Python environmne the ability to interact with SQL databases without a separate application.
+2. A model defines the structure of an element that will be used in an application.
+3. A view controls how a model will be created and outputted.
