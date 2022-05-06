@@ -112,3 +112,7 @@ button {
 .high-contrast button {
     color: black;
 }
+
+.dyslexia-mode {
+    font-size: 2em;
+}

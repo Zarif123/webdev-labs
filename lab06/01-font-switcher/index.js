@@ -1,12 +1,14 @@
 const makeBigger = () => {
-   alert('make bigger!');
+   document.querySelector('.content').style.fontSize = 'larger';
+   document.querySelector('h1').style.fontSize = 'larger';
 };
 
 const makeSmaller = () => {
-   alert('make smaller!');
+   document.querySelector('.content').style.fontSize = 'smaller';
+   document.querySelector('h1').style.fontSize = 'smaller';
 };
 
-/*
-document.querySelector(???).addEventListener('click', makeBigger);
-document.querySelector(???).addEventListener('click', makeSmaller);
-*/
+
+document.querySelector('#a1').addEventListener('click', makeBigger);
+document.querySelector('#a2').addEventListener('click', makeSmaller);
+
