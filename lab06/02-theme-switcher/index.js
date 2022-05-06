@@ -7,19 +7,19 @@
 */
 
 const defaultTheme = () => {
-   document.querySelector('.container').className = "container";
+   document.querySelector('section').className = "container";
 }
 
 const desert = () => {
-   document.querySelector('.container').className = "desert";
+   document.querySelector('section').className = "desert";
 }
 
 const ocean = () => {
-   document.querySelector('.container').className = "ocean";
+   document.querySelector('section').className = "ocean";
 }
 
 const highContrast = () => {
-   document.querySelector('.container').className = "high-contrast";
+   document.querySelector('section').className = "high-contrast";
 }
 
 document.querySelector('#default').addEventListener('click', defaultTheme);

@@ -4,7 +4,12 @@
 */
 
 const dyslexiaMode = () => {
-  document.querySelector('.container').className = "container";
+  if (document.querySelector('.container') !== null) {
+    document.querySelector('.container').className = "dyslexia-mode";
+  }
+  else if (document.querySelector('.dyslexia-mode') !== null) {
+    document.querySelector('.dyslexia-mode').className = "container";
+  }
 }
 
 document.querySelector('#dyslexia-toggle').addEventListener('click', dyslexiaMode);

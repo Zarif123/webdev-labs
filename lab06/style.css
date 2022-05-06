@@ -114,5 +114,14 @@ button {
 }
 
 .dyslexia-mode {
-    font-size: 2em;
+    letter-spacing: 0.35ch;
+    word-spacing: 1.225ch; /* 3.5x letter-spacing */
+    font-variant-ligatures: none; /* explicitly disable ligatures  */
+    font-weight: 600; /* demi-bold */
+    font-size: 150%; /* assuming 16px base size, convert to 18pt */
+    line-height: 2.0;
+}
+
+.dyslexia-mode main p {
+   margin-top: 3.5em;
 }

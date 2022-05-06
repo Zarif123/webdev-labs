@@ -1,11 +1,15 @@
 const makeBigger = () => {
-   document.querySelector('.content').style.fontSize = 'larger';
-   document.querySelector('h1').style.fontSize = 'larger';
+   let content_font_size = window.getComputedStyle(document.querySelector('.content')).getPropertyValue('font-size');
+   let heading_font_size = window.getComputedStyle(document.querySelector('.content')).getPropertyValue('font-size');
+   document.querySelector('.content').style.fontSize = parseFloat(content_font_size) + 10 + 'px';
+   document.querySelector('h1').style.fontSize = parseFloat(heading_font_size) + 10 + 'px';
 };
 
 const makeSmaller = () => {
-   document.querySelector('.content').style.fontSize = 'smaller';
-   document.querySelector('h1').style.fontSize = 'smaller';
+   let content_font_size = window.getComputedStyle(document.querySelector('.content')).getPropertyValue('font-size');
+   let heading_font_size = window.getComputedStyle(document.querySelector('.content')).getPropertyValue('font-size');
+   document.querySelector('.content').style.fontSize = parseFloat(content_font_size) - 10 + 'px';
+   document.querySelector('h1').style.fontSize = parseFloat(heading_font_size) - 10 + 'px';
 };
 
 
